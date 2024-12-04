@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editTextImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Image URL"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editTextStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Status"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editTextLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Link"
+        android:minHeight="48dp"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/btnAddBanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Banner"
+        android:layout_marginTop="16dp"
+        android:padding="12dp" />
+</LinearLayout>
